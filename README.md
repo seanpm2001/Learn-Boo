@@ -3,6 +3,8 @@
 
 ### Learning Boo
 
+![/Boo-lang.png](/Boo-lang.png)
+
 I took up the Boo programming language on 2021 October 31st as a way to celebrate Halloween. The language was so similar to Python that I was able to find minor differences and gain quick mastery in the language. I have used the language before, but not to build an actual program. My first Boo program is the project [Halloween assistant](https://github.com/seanpm2001/Halloween-assistant/)
 
 Here is a sample program I made to test the difference between Python and Boo syntax. I don't have a compiler to test this yet, and I hope to split this into several parts.
@@ -270,9 +272,27 @@ _/!\ This program has not been tested, and may not compile._
 
 ***
 
-I honestly feel like Boo was forked from Python with minor modifications. The 2 languages are so similar.
-
 **This section was last updated on 2021, Monday, November 1st at 5:47 pm (the time stamp was added at this time)**
+
+#### Range
+
+It seems that Boo supports the `range` keyword, but I don't have a compiler to test it. This is my written example:
+
+```boo
+print "Ranges in Boo"
+for x in range(1,3):
+	print (x)
+	x == x + 1
+	break
+```
+
+_(i) This example may have problems._
+
+_/!\ This program has not been tested, and may not compile._
+
+**This section was last updated on 2021, Thursday, November 11th at 6:04 pm**
+
+I honestly feel like Boo was forked from Python with minor modifications. The 2 languages are so similar.
 
 ### New knowledge
 
@@ -292,5 +312,79 @@ _(i) This example may have problems._
 _/!\ This program has not been tested, and may not compile._
 
 **This section was last updated on 2021, Monday, November 1st at 5:47 pm (the time stamp was added at this time)**
+
+***
+
+### File info
+
+<details><summary><p>Click/tap here to expand/collapse the file info section</p></summary>
+
+**File type:** `Markdown document (*.md *.mkd *.mdown *.markdown)`
+
+**File version:** `2 (2021, Thursday, November 11th at 6:31 pm)`
+
+**Line count (including blank lines and compiler line):** `391`
+
+</details>
+
+***
+
+## File history
+
+<details><summary><p>Click/tap here to expand/collapse the file history section</p></summary>
+
+**Version 1 (2021, Monday, November 1st at 5:51 pm)**
+
+> Changes:
+
+> * Started the file
+
+> * Added the title section
+
+> * Added the first 14 examples
+
+> * No other changes in version 1
+
+**Version 2 (2021, Thursday, November 11th at 6:31 pm)**
+
+> Changes:
+
+> * Added a logo
+
+> * Added 1 new example
+
+> * Added the file info section
+
+> * Added the file history section
+
+> * Added the footer
+
+> * No other changes in version 2
+
+**Version 3 (Coming soon)**
+
+> Changes:
+
+> * Coming soon
+
+> * No other changes in version 3
+
+**Version 4 (Coming soon)**
+
+> Changes:
+
+> * Coming soon
+
+> * No other changes in version 4
+
+</details>
+
+***
+
+### You have reached the end of the README file
+
+( [Back to top](#Top) | [Exit to GitHub](https://github.com) | [Exit to Bing](https://www.bing.com/) | [Exit to DuckDuckGo](https://duckduckgo.com/) | [Exit to Safe.DuckDuckGo.com](https://safe.duckduckgo.com/) | [Exit to Ecosia](https://www.ecosia.org) | [Exit to Swisscows](https://www.swisscows.com/) )
+
+### EOF
 
 ***
